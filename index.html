@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Lexend+Deca|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        body{
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: .1rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+        }
+
+        .flex-container {
+            background-color: white;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .div-left {
+            color: white;
+            width: 40%;
+            text-align: center;
+            background-color: #141414;
+        }
+
+
+        .div-right {
+            padding: 20px;
+            background-color: #f1f1f1;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1{
+            font-family: 'Cedarville Cursive', cursive;
+            font-size: 4rem;
+        }
+
+
+
+        a{
+            color: #707070;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: black;
+        }
+
+        .shadow{
+            text-align: left;
+            margin: 50px;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow:0px 5px 15px 0px #d6d6d6;
+        }
+
+        * {box-sizing:border-box}
+
+        /* Container for skill bars */
+        .container {
+                width: 100%;
+                background-color: #424242;
+            }
+
+            .skills {
+                text-align: right;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                color: white;
+                text-align: right;
+            }
+
+            .html {width: 90%; background-color: #ffffff; font-size: 0.5rem;}
+            .swift {width: 80%; background-color: #ffffff; font-size: 0.5rem;}
+            .android {width: 65%; background-color: #ffffff; font-size: 0.5rem;}
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="div-left">
+            <img src="data:image/jpeg;base64,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" style="width: 100%">
+            <br><br><h2>About Me</h2>
+            <p style="padding: 10px; font-weight: 300;">Hi am Kevin Joe Ronin,Am Pursuing my Btech in Karunya Institute of Technology and Science,Coimbatore.As well as am a Photographer too.</p>
+            
+            <div style="padding:1rem;">
+                <h3>SKILLS</h3>
+                <div>
+                    <p>HTML</p>
+                    <div class="container">
+                        <div class="skill html">-</div>
+                    </div>
+                    <p>Photoshop</p>
+                    <div class="container">
+                        <div class="skill swift">-</div>
+                    </div>
+                    <p>Javascript</p>
+                    <div class="container">
+                        <div class="skill android">-</div>
+                    </div>
+                </div>
+                </div>
+
+        </div>
+
+
+
+
+
+        <div class="div-right">
+            <br><br>
+            <h1>Kevin Joe Ronin</h1>
+            <span style="color: #707070;">Panketh House,Perumpadanna,North Paravur<br>
+                <a href="mailto:kevinjoeronin@karunya.edu.in">Email: kevinjoeronin@karunya.edu.in</a>
+                <Br><a href="tel:9946922997">Mobile: 9946922997</a>
+            </span>
+
+            <div class="shadow">
+                <h2><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</h2>
+                <span><b>IOT Engineer</b></span><br>
+                <span style="font-size: .8rem">2021 - 2023</span>
+                <p>I have also been part of IBM Summer Internship Programme by Smart Bridge in Hyderbad,and had Worked and Experinced with IOT ,and Also worked with MLIT Solutions for the project Smart Illumination System for Poultry Farm</p>
+            </div>
+
+            <div class="shadow">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Education</h2>
+                    <span><b>School</b></span><br>
+                    <span style="font-size: .8rem">2000 - 2017</span>
+                    <p>I Did My primary Education in Bharathiya Vidya Bhavans Vidya Mandir ,Kodungaloor</p>
+                    <span><b>College</b></span><br>
+                    <span style="font-size: .8rem">2017 - 2021</span>
+                    <p>Pursing My Btech on Computer Science Enginnering in Karunya Institute Of Technology and Science</p>
+            
+            </div>
+
+            <div class="shadow">
+                    <h2><i class="fa fa-certificate" aria-hidden="true"></i> Hobbies</h2>
+                    <span><b>Photography</b></span>
+                    <p>From Childhood itself i had great passion and love Towards Photography.Used to take Landscape,potrait,and macro photo's</p>
+                    <br>
+                    <span><b>Graphic Designer</b></span>
+                    <p>As a craze to photgraphy i have also worked with Photoshop,Lightroom and some Graphic Designer softwares like illustrator to make posters for events in collage and for friends and family</p>
+            
+            </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; background-color: black; color: white; padding:20px;">
+        &copy;2019 Kevin Joe Ronin. Please Visit Again.
+    </footer>
+</body>
+</html>
